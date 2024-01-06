@@ -1,0 +1,28 @@
+footer{
+   width: 100vw; 
+   height: 200px;
+   background-color: rgb(236, 30, 30);
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   filter: url("#composite");
+}
+footer>div{
+    background-color: rgb(236, 30, 30);
+    position: absolute;
+    top: 0;
+}
+@keyframes moveTop {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    70% {
+        opacity: 1;
+        transform: translateY(-180px) scale(0.8);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-200px) scale(0);
+    }
+}

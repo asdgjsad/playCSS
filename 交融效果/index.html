@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>气泡交融</title>
+    <link rel="stylesheet" href="./1.css">
+</head>
+<body>
+    <footer></footer>
+    <svg width="0" height="0">
+        <defs>
+            <filter id="composite">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="gaussianBlur"/>
+                <feColorMatrix in="gaussianBlur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="colorMatrix"/>
+                <feBlend in="SourceGraphic" in2="colorMatrix">
+            </filter>
+        </defs>
+    </svg>
+    <script src="./1.js"></script>
+</body>
+</html>

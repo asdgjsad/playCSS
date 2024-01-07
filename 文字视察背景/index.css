@@ -1,0 +1,15 @@
+body{
+    height: 150vh;
+    background-color: antiquewhite;
+    padding-top: 50vh;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    background: linear-gradient(red 50%, lightblue 50%) center center/ 100vw 100vh fixed;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+}

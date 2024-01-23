@@ -7,3 +7,4 @@
 1. [交融效果](https://github.com/asdgjsad/playCSS/tree/main/%E4%BA%A4%E8%9E%8D%E6%95%88%E6%9E%9C)
 2. [文字视差效果](https://github.com/asdgjsad/playCSS/tree/main/文字视察背景)
 3. [故障波纹动效](https://github.com/asdgjsad/playCSS/tree/main/故障波纹动效)
+4. [文字倒影](https://github.com/asdgjsad/playCSS/tree/main/文字倒影)

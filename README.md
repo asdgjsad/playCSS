@@ -1,5 +1,5 @@
 # 简介
-这是一个专门收集各种有趣的css的仓库
+这是一个专门收集各种有趣的css的仓库, 可以帮助你深入学习css
 
 
 
@@ -8,3 +8,4 @@
 2. [文字视差效果](https://github.com/asdgjsad/playCSS/tree/main/文字视察背景)
 3. [故障波纹动效](https://github.com/asdgjsad/playCSS/tree/main/故障波纹动效)
 4. [文字倒影](https://github.com/asdgjsad/playCSS/tree/main/文字倒影)
+5. [文字颜色适配背景](https://github.com/asdgjsad/playCSS/tree/main/文字颜色适配背景)

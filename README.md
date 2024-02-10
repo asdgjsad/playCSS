@@ -9,3 +9,4 @@
 3. [故障波纹动效](https://github.com/asdgjsad/playCSS/tree/main/故障波纹动效)
 4. [文字倒影](https://github.com/asdgjsad/playCSS/tree/main/文字倒影)
 5. [文字颜色适配背景](https://github.com/asdgjsad/playCSS/tree/main/文字颜色适配背景)
+6. [文字渐隐效果](https://github.com/asdgjsad/playCSS/tree/main/文字渐隐效果)

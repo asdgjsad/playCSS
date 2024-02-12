@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纯css实现拖拽</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            position: absolute;
+            /* background-color: red; */
+        }
+        
+        .g-resize {
+            width: 20px;
+            height: 20px;
+            resize: both;
+            overflow: scroll;
+            scrollbar-width: none;
+            max-width: calc(100vw - 180px);
+            max-height: calc(100vh - 180px);
+        }
+
+        .g-resize::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: no-repeat url(./圆圈.svg);
+            background-size: contain;
+            z-index: 999;
+            transition: all 500ms;
+        }
+
+        .g-resize:hover::before{
+            transform: scale(1.2);
+        }
+
+        .g-resize::-webkit-resizer {
+            background-color: transparent;
+        }
+
+        .content{
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            background-color: #d2cf99;
+            position: absolute;
+            right: -180px;
+            bottom: -180px;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="g-resize"></div>
+        <div class="content">新年快乐！</div>
+    </div>
+</body>
+
+</html>

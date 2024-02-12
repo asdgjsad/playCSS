@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>纯css实现拖拽</title>
+    <style>
+        .g-resize {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            resize: both;
+            overflow: scroll;
+            scrollbar-width: none;
+        }
+
+        .g-resize::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: deeppink;
+        }
+
+        .g-resize::-webkit-resizer {
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="g-resize"></div>
+</body>
+
+</html>

@@ -11,3 +11,4 @@
 5. [文字颜色适配背景](https://github.com/asdgjsad/playCSS/tree/main/文字颜色适配背景)
 6. [文字渐隐效果](https://github.com/asdgjsad/playCSS/tree/main/文字渐隐效果)
 7. [纯css实现拖拽](https://github.com/asdgjsad/playCSS/tree/main/纯css实现拖拽)
+8. [打字机效果](https://github.com/asdgjsad/playCSS/tree/main/打字机效果)

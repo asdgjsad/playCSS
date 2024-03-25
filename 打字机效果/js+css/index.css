@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Pixel;
+    src: url('./font.ttf');
+}
+
+html{
+    font-family: Pixel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(35, 34, 34);
+}
+
+.box{
+    font-size: 20px;
+    color: white;
+    text-wrap: nowrap;
+    position: relative;
+    padding: 2px;
+}
+
+.box::after{
+    content: '';
+    width: 1px;
+    height: 25px;
+    background-color: rgb(246, 245, 245);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: flashing 900ms steps(1) infinite;
+}
+
+@keyframes flashing {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}

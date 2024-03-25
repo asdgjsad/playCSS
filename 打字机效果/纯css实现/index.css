@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Pixel;
+    src: url('./font.ttf');
+}
+
+html{
+    font-family: Pixel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(35, 34, 34);
+}
+
+.box{
+    font-size: 20px;
+    color: white;
+    animation: typewriter 8s steps(52) infinite;
+    text-wrap: nowrap;
+    position: relative;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.box::after{
+    content: '';
+    width: 1px;
+    height: 25px;
+    background-color: rgb(246, 245, 245);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: flashing 900ms steps(1) infinite;
+}
+
+@keyframes typewriter {
+    0%{
+        width: 0;
+    }
+    60%{
+        width: 100%;
+    }
+    90%{
+        width: 100%;
+    }
+    100%{
+        width: 0;
+    }
+}
+
+@keyframes flashing {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
